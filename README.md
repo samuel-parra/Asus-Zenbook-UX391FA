@@ -10,6 +10,7 @@ GRUB_CMDLINE_LINUX="acpi_backlight=vendor"
 
 
 # Bashrc
+Windows manager detect correct size in HiDPI display  
 
 export ELECTRON_FORCE_WINDOW_MENU_BAR=1  
 export PLASMA_USE_QT_SCALING=1  
