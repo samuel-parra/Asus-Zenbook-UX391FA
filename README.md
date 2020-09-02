@@ -17,7 +17,7 @@ export PLASMA_USE_QT_SCALING=1
 export GDK_SCALE=2  
 
 
-# Enable raster
+# Enable raster for electron applications
 
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization
  
