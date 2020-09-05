@@ -17,7 +17,13 @@ export PLASMA_USE_QT_SCALING=1
 export GDK_SCALE=2  
 
 
-# Enable video acceleration to electron applications
+ # Correct size of icons on tray  
 
---enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization
+ add this var in ejecution command  
+
+ XDG_CURRENT_DESKTOP=Unity
+
+ # Enable video acceleration to electron applications
+
+--enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
