@@ -27,3 +27,7 @@ export GDK_SCALE=2
 
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
+
+ # Enable new session always in kde
+
+System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
