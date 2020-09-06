@@ -41,3 +41,10 @@ starman ALL=(ALL) NOPASSWD:ALL
 
 balooctl stop  
 balooctl disable  
+
+
+# extras
+Advanced audio player
+tlp tlp-dwr
+Intel P-state and CPUfreq
+kwin maximize to new virtual desktop
