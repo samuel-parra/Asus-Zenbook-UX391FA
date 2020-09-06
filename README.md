@@ -31,3 +31,8 @@ export GDK_SCALE=2
  # Enable new session always in kde Plasma
 
 System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
+
+
+# sudoers
+
+starman ALL=(ALL) NOPASSWD:ALL  
