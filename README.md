@@ -36,3 +36,8 @@ System Settings > Startup and Shutdown > Desktop Session > On Login > Start with
 # sudoers
 
 starman ALL=(ALL) NOPASSWD:ALL  
+
+# disable file indexer in kde plasma
+
+balooctl stop  
+balooctl disable  
