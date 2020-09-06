@@ -17,7 +17,7 @@ export PLASMA_USE_QT_SCALING=1
 export GDK_SCALE=2  
 
 
- # Correct size of icons on tray  
+# Correct size of icons on tray  
 
  add this var in execution command  
 
@@ -28,7 +28,7 @@ export GDK_SCALE=2
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
 
- # Enable new session always in kde Plasma
+# Enable new session always in kde Plasma
 
 System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
 
