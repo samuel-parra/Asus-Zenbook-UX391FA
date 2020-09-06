@@ -19,7 +19,7 @@ export GDK_SCALE=2
 
  # Correct size of icons on tray  
 
- add this var in ejecution command  
+ add this var in execution command  
 
  XDG_CURRENT_DESKTOP=Unity
 
@@ -28,6 +28,6 @@ export GDK_SCALE=2
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
 
- # Enable new session always in kde
+ # Enable new session always in kde Plasma
 
 System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
