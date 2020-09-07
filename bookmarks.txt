@@ -7,4 +7,5 @@ https://github.com/samuel-parra/Asus-Zenbook-UX391FA
 https://needforbits.wordpress.com/2017/07/19/install-microsoft-windows-fonts-on-ubuntu-the-ultimate-guide/
 https://www.golinuxhub.com/2018/06/what-cpu-c-states-check-cpu-core-linux/
 https://medium.com/nybles/dual-booting-kali-ubuntu-on-a-gaming-laptop-1ec197072885
-
+https://zren.github.io/kde/
+https://outhereinthefield.wordpress.com/2019/05/21/enabling-hibernate-on-ubuntu-19-04-disco-dingo/
