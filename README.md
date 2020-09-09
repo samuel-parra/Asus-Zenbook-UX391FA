@@ -32,6 +32,11 @@ export GDK_SCALE=2
 
 System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
 
+# add scale to spotify or electron apps
+
+in app file add in line Exec
+
+--force-device-scale-factor=2
 
 # sudoers
 
@@ -44,7 +49,8 @@ balooctl disable
 
 
 # extras
-Advanced audio player
-tlp tlp-dwr
-Intel P-state and CPUfreq
-kwin maximize to new virtual desktop
+Advanced audio player  
+tlp tlp-dwr  
+Intel P-state and CPUfreq  
+kwin maximize to new virtual desktop  
+
