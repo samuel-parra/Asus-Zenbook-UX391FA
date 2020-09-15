@@ -12,13 +12,13 @@ GRUB_CMDLINE_LINUX="acpi_backlight=intel mem_sleep_default=deep intel_idle.max_c
 # Bashrc
 Windows manager detect correct size in HiDPI display  
 
-export PLASMA_USE_QT_SCALING=1
-export QT_AUTO_SCREEN_SCALE_FACTOR=1
-export GDK_SCALE=2
-export GDK_DPI_SCALE=2
-
-on Manjaro use file /etc/environment 
-
+export PLASMA_USE_QT_SCALING=1  
+export QT_AUTO_SCREEN_SCALE_FACTOR=1  
+export GDK_SCALE=2  
+export GDK_DPI_SCALE=2  
+  
+on Manjaro use file /etc/environment   
+  
 
 # Correct size of icons on tray  
 
