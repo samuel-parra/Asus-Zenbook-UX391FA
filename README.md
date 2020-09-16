@@ -5,9 +5,10 @@ Laptop's Configuration
 
 ## Grub
 
+```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash resume=UUID=993e46f0-8de5-44ee-b724-9bf307d36ca4 pcie_aspm=force pci=noaer acpi_osi=Linux fbcon=font:TER16x32"  
 GRUB_CMDLINE_LINUX="acpi_backlight=intel mem_sleep_default=deep intel_idle.max_cstate=4 idle=nomwait acpi=force"
-
+```
 
 ## Bashrc
 Windows manager detect correct size in HiDPI display  
