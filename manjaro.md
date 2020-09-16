@@ -6,7 +6,6 @@ install plymouth
 
 ```
 pacman -Sy plymouth
-
 ```
 
 https://wiki.manjaro.org/index.php?title=Plymouth  
