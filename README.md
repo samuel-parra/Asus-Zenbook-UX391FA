@@ -27,7 +27,7 @@ on Manjaro use file /etc/environment
 
  XDG_CURRENT_DESKTOP=Unity
 
- # Enable video acceleration to electron applications
+## Enable video acceleration to electron applications
 
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
@@ -58,3 +58,12 @@ tlp tlp-dwr
 Intel P-state and CPUfreq  
 kwin maximize to new virtual desktop  
 
+## alias for commands in bashrc
+```  
+alias ls='ls --color=auto'  
+alias ll='ls -alF'  
+alias la='ls -A'  
+alias l='ls -CF'  
+alias vi='vim'  
+alias grep='grep --color=auto'  
+```
