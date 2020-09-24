@@ -26,3 +26,4 @@ vscode
 insync  
 dbeaver  
 insomnia  
+ttf-liberation  

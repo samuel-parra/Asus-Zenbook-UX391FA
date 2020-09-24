@@ -16,7 +16,10 @@ Exec=env QT_SCALE_FACTOR=0.7 insync start
 Add to firefox.application in Exec  
 ´´´
 Exec=env MOZ_ENABLE_WAYLAND=1 /usr/lib/firefox/firefox ....
-´´´
+´´´  
+
+Arch Link  
+https://wiki.archlinux.org/index.php/Firefox
 
 ## Chromium  
 Add to chromium.application in Exec  
