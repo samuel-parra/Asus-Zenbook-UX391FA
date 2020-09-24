@@ -1,6 +1,6 @@
 # Asus-Zenbook-UX391FA
-Laptop's Configuration
 
+Laptop's Configuration
 
 
 ## Grub
@@ -11,7 +11,7 @@ GRUB_CMDLINE_LINUX="acpi_backlight=intel mem_sleep_default=deep intel_idle.max_c
 ```
 
 ## Bashrc
-Windows manager detect correct size in HiDPI display  
+Windows manager detect correct size in HiDPI display  only for KDE Plasma  
 
 export PLASMA_USE_QT_SCALING=1  
 export QT_AUTO_SCREEN_SCALE_FACTOR=1  
