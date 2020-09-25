@@ -24,17 +24,16 @@ on Manjaro use file /etc/environment
 ## Correct size of icons on tray  
 
  add this var in execution command  
-
- XDG_CURRENT_DESKTOP=Unity
+```  
+ XDG_CURRENT_DESKTOP=Unity  
+ ```  
+ 
 
 ## Enable video acceleration to electron applications
 
 --enable-accelerated-mjpeg-decode --enable-accelerated-video --ignore-gpu-blacklist --enable-native-gpu-memory-buffers --enable-gpu-rasterization  
  
 
-## Enable new session always in kde Plasma
-
-System Settings > Startup and Shutdown > Desktop Session > On Login > Start with empty session  
 
 ## add scale to spotify or electron apps
 
@@ -46,17 +45,6 @@ in app file add in line Exec
 
 starman ALL=(ALL) NOPASSWD:ALL  
 
-## disable file indexer in kde plasma
-
-balooctl stop  
-balooctl disable  
-
-
-## extras
-Advanced audio player  
-tlp tlp-dwr  
-Intel P-state and CPUfreq  
-kwin maximize to new virtual desktop  
 
 ## alias for commands in bashrc
 ```  
