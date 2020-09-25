@@ -11,3 +11,5 @@ https://zren.github.io/kde/
 https://outhereinthefield.wordpress.com/2019/05/21/enabling-hibernate-on-ubuntu-19-04-disco-dingo/
 https://linuxconfig.org/how-to-install-whatsapp-on-manjaro-18-linux
 
+# Wayland
+https://wiki.duckcorp.org/index.php/Using_Wayland#Java_Applications  
