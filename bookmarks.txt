@@ -13,3 +13,5 @@ https://linuxconfig.org/how-to-install-whatsapp-on-manjaro-18-linux
 
 # Wayland
 https://wiki.duckcorp.org/index.php/Using_Wayland#Java_Applications  
+
+https://blog.linuxitos.com/que-hacer-despues-de-instalar-fedora-32  
