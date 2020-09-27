@@ -19,3 +19,12 @@ MaxInterval=7
 Latency=0  
 Timeout=216  
 ```
+
+
+
+## Firefox Scroll
+
+open about:config  
+
+search mousewheel.default.delta_multiplier_y and change value to 250 or 300  
+
