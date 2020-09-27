@@ -27,6 +27,7 @@ insync
 dbeaver  
 insomnia  
 ttf-liberation  
+nvme-cli  
 
 
 ## Tips
