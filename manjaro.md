@@ -28,6 +28,7 @@ dbeaver
 insomnia  
 ttf-liberation  
 nvme-cli  
+bluez-utils  
 
 
 ## Tips
