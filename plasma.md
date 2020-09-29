@@ -17,3 +17,8 @@ tlp tlp-dwr
 Intel P-state and CPUfreq  
 kwin maximize to new virtual desktop  
 
+# Neon
+## Extras  
+
+Install Ubuntu Restricted Extras (Media Codecs):  
+sudo apt install ubuntu-restricted-extras
