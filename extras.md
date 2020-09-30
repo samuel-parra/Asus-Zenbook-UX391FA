@@ -20,6 +20,9 @@ Latency=0
 Timeout=216  
 ```
 
+## Font for gnome  
+
+Fira_sans https://fonts.google.com/specimen/Fira+Sans  
 
 
 ## Firefox Scroll
@@ -30,7 +33,7 @@ search mousewheel.default.delta_multiplier_y and change value to 250 or 300
 
 ## Vscode Extension  
 
-	Bracket Pair Colorizer  
+Nombre: Bracket Pair Colorizer  
 Nombre: ES7 React/Redux/GraphQL/React-Native snippets  
 Nombre: generate-react-component  
 Nombre: Peep  
