@@ -36,3 +36,13 @@ Add to zoom.application in Exec
 ```  
 Exec=env QT_SCALE_FACTOR=0.5 /usr/bin/zoom %U  
 ```  
+
+## Share desktop on Wayland in chrome
+
+```  
+chrome://flags/#enable-webrtc-pipewire-capturer  
+```
+
+```  
+systemctl --user status pipewire.socket  
+```  

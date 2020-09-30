@@ -29,6 +29,7 @@ insomnia
 ttf-liberation  
 nvme-cli  
 bluez-utils  
+insomnia  
 
 
 ## Tips
