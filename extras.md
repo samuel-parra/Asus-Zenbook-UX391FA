@@ -38,3 +38,7 @@ layers.acceleration.force-enabled
 gfx.webrender.all -> bug with video play
 
 
+## Add more lines to history zsh
+
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
