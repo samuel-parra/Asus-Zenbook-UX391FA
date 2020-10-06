@@ -18,3 +18,9 @@ https://blog.linuxitos.com/que-hacer-despues-de-instalar-fedora-32
 
 https://www.aqu.lu/2018/08/15/t480-configs.html
 https://jgrulich.cz/2018/07/04/how-to-enable-and-use-screen-sharing-on-wayland/
+
+
+## Xorg HiDPI
+
+https://utcc.utoronto.ca/~cks/space/blog/linux/HiDPIMyXSettings  
+
