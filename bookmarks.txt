@@ -24,3 +24,14 @@ https://jgrulich.cz/2018/07/04/how-to-enable-and-use-screen-sharing-on-wayland/
 
 https://utcc.utoronto.ca/~cks/space/blog/linux/HiDPIMyXSettings  
 
+## Gedit Markdown
+
+https://www.linuxuprising.com/2020/02/how-to-add-markdown-support-to-gedit.html
+
+## Fast CPU
+
+https://linuxreviews.org/HOWTO_make_Linux_run_blazing_fast_(again)_on_Intel_CPUs
+
+## KDE Plasma kernel
+
+https://www.ivanov.biz/2019/howto-optimize-intel-graphics-performance-fedora-kde-linux-laptop/
