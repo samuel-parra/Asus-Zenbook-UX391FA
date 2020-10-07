@@ -17,7 +17,7 @@ Windows manager detect correct size in HiDPI display  only for KDE Plasma
 export PLASMA_USE_QT_SCALING=1  
 export QT_AUTO_SCREEN_SCALE_FACTOR=1  
 export GDK_SCALE=2  
-export GDK_DPI_SCALE=2  
+export GDK_DPI_SCALE=2 / 0.5 / 1  
 ```
   
 on Manjaro use file /etc/environment   

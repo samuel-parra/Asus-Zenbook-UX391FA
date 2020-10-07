@@ -19,17 +19,48 @@ tlp-dwr
 zoom  
 spotify  
 filezilla  
-qtwaw  
 evolution  
 evolution-ews  
 vscode  
 insync  
-dbeaver  
 insomnia  
 ttf-liberation  
 nvme-cli  
 bluez-utils  
 insomnia  
+terminus-font  
+neofetch  
+vim  
+dbeaver  
+syslog-ng  
+net-tools  
+traceroute  
+ttf-ms-fonts  
+sublime-text  
+sublime-merge  
+ethtool  
+pavucontrol  
+pulseaudio-bluetooth  
+pulseaudio-bluetooth-a2dp-gdm-fix  
+Remmina  
+preload  
+putty  
+ttf-liberation  
+adobe-base-14-fonts  
+imwheel  
+fwup  
+htop  
+
+
+## Gnome
+tilix  
+font-manager
+
+
+## KDE
+qtwaw  
+konsole  
+
 
 
 ## Tips

@@ -34,13 +34,13 @@ search mousewheel.default.delta_multiplier_y and change value to 250 or 300
 
 ## Firefox Tweaks
 about:config
-layers.acceleration.force-enabled
+layers.acceleration.force-enabled  
 gfx.webrender.all -> bug with video play
 
 
 ## Add more lines to history zsh
 
-export HISTFILESIZE=1000000000
+export HISTFILESIZE=1000000000  
 export HISTSIZE=1000000000
 
 
