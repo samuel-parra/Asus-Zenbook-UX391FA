@@ -21,3 +21,10 @@ Boston
 ## Cursor
 
 Xcursor-breeze-snow  
+
+
+## Enable Hibernate on close 
+
+edit /etc/systemd/logind.conf and change HandleLidSwitch=hibernate  
+
+
