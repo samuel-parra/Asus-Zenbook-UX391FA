@@ -50,7 +50,10 @@ adobe-base-14-fonts
 imwheel  
 fwup  
 htop  
-intel-media-driver
+intel-media-driver  
+intel-hybrid-codec-driver  
+vdpauinfo  
+libvdpau-va-gl  
 
 ## Gnome
 tilix  
@@ -68,3 +71,9 @@ konsole
 ### Change java version  
 
 sudo archlinux-java set java-11-openjdk  
+
+### Configure mouse wheel scroll  
+
+use mousewheel.sh for create and set configuration  
+
+https://wiki.archlinux.org/index.php/IMWheel  
