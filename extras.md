@@ -36,7 +36,7 @@ search mousewheel.default.delta_multiplier_y and change value to 250 or 300
 about:config  
 layers.acceleration.force-enabled  
 gfx.webrender.all -> bug with video play
-
+media.ffvpx.enabled=false  
 
 ## Add more lines to history zsh
 
