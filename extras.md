@@ -49,4 +49,11 @@ export HISTSIZE=1000000000
   
 systool -m i915 -av  
 
+## Intel Graphics
+
+reference to configure 
+
+https://wiki.gentoo.org/wiki/VAAPI  
+https://wiki.gentoo.org/wiki/Intel  
+
 
