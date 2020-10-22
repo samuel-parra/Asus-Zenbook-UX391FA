@@ -23,6 +23,15 @@ export GDK_DPI_SCALE=2 / 0.5 / 1
 on Manjaro use file /etc/environment   
   
 
+## Enable vapi  
+
+add in enviroment  
+
+```
+LIBVA_DRIVER_NAME=iHD
+VDPAU_DRIVER=va_gl
+```
+
 ## Correct size of icons on tray  
 
  add this var in execution command  
@@ -43,8 +52,9 @@ Add modificators in Exec command
 ## add scale to spotify or electron apps
 
 in app file add in line Exec
-```
 
+
+```
 --force-device-scale-factor=2
 ```
 
