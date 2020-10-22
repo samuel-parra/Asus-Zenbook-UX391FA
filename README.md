@@ -73,3 +73,11 @@ alias l='ls -CF'
 alias vi='vim'  
 alias grep='grep --color=auto'  
 ```
+
+## ASUS overheat  
+
+change governor to powersave
+
+```
+sudo cpupower frequency-set -g  powersave  
+```

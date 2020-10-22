@@ -72,6 +72,7 @@ konsole
 
 sudo archlinux-java set java-11-openjdk  
 
+
 ### Configure mouse wheel scroll  
 
 use mousewheel.sh for create and set configuration  
