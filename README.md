@@ -30,6 +30,7 @@ add in enviroment
 ```
 LIBVA_DRIVER_NAME=iHD
 VDPAU_DRIVER=va_gl
+MESA_LOADER_DRIVER_OVERRIDE=iris   
 ```
 
 ## Correct size of icons on tray  

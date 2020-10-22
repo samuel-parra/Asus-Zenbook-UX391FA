@@ -55,5 +55,10 @@ reference to configure
 
 https://wiki.gentoo.org/wiki/VAAPI  
 https://wiki.gentoo.org/wiki/Intel  
+https://linuxreviews.org/Intel_Iris  
 
 
+```
+glxinfo -B | grep Vendor 
+grep -iE 'vdpau | dri driver' .local/share/xorg/Xorg.0.log
+```
