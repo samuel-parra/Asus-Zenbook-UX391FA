@@ -8,6 +8,13 @@ Laptop's Configuration
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash resume=UUID=993e46f0-8de5-44ee-b724-9bf307d36ca4 pcie_aspm=force pci=noaer acpi_osi=Linux fbcon=font:TER16x32"  
 GRUB_CMDLINE_LINUX="acpi_backlight=intel mem_sleep_default=deep intel_idle.max_cstate=4 idle=nomwait acpi=force"
+
+
+# GRUB_CMDLINE_LINUX_DEFAULT="quiet splash apparmor=0 security=apparmor resume=UUID=2f86707e-515f-4faa-9f5a-5bb2c52ab0e9 udev.log_priority=3 intel_idle.max_cstate=4 pcie_aspm=force pci=noaer acpi_osi=Linux acpi_backlight=intel mem_sleep_default=deep idle=nomwait acpi=force dis_ucode_ldr fbcon=font:TER16x32"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash apparmor=0 security=apparmor resume=UUID=2f86707e-515f-4faa-9f5a-5bb2c52ab0e9 udev.log_priority=3 intel_idle.max_cstate=4 pcie_aspm=force pci=noaer acpi_osi=Linux acpi_backlight=intel mem_sleep_default=deep idle=nomwait acpi=force fbcon=font:TER16x32"
+#GRUB_CMDLINE_LINUX="i915.enable_guc=2 i915.enable_fbc=0 i915.enable_dc=2 i915.enable_dpcd_backlight=1 i915.modeset=1 nospectre_v1 nospectre_v2 mitigations=off"
+GRUB_CMDLINE_LINUX="nospectre_v1 nospectre_v2 mitigations=off"
+
 ```
 
 ## Bashrc
