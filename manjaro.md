@@ -50,7 +50,7 @@ adobe-base-14-fonts
 imwheel  
 fwup  
 htop  
-
+intel-media-driver
 
 ## Gnome
 tilix  
