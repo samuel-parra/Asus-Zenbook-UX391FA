@@ -17,14 +17,24 @@ Qogir-win-light
 ## Icons
 
 Boston  
+Tela-circle
 
 ## Cursor
 
 Xcursor-breeze-snow  
 
 
+## Shell  
+
+Qogir-win-loght  
+
 ## Enable Hibernate on close 
 
 edit /etc/systemd/logind.conf and change HandleLidSwitch=hibernate  
 
 
+## Fonts
+
+Interface Text:  Fira Sans Regular 11  
+Document Text: Sans Regular 11
+Monospace Text: Fira Mono Regular 11
