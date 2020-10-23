@@ -13,7 +13,8 @@ balooctl disable
 
 ## extras
 Advanced audio player  
-tlp tlp-dwr  
+tlp   
+tlp-dwr  
 Intel P-state and CPUfreq  
 kwin maximize to new virtual desktop  
 
@@ -22,3 +23,13 @@ kwin maximize to new virtual desktop
 
 Install Ubuntu Restricted Extras (Media Codecs):  
 sudo apt install ubuntu-restricted-extras
+
+## Packages
+
+kubuntu-driver-manager  
+kubuntu-restricted-extras  
+build-essential  
+fonts-roboto  
+kate  
+kfind  
+kubuntu-restricted-extras-67  
