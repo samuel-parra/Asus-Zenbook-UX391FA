@@ -33,3 +33,5 @@ fonts-roboto
 kate  
 kfind  
 kubuntu-restricted-extras-67  
+network-manager-fortisslvpn  
+hunspell-es  
