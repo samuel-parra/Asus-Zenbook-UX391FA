@@ -35,3 +35,10 @@ kfind
 kubuntu-restricted-extras-67  
 network-manager-fortisslvpn  
 hunspell-es  
+
+
+## KWallet
+
+Disable kwallet  
+
+System Settings > KDE WALLET > unmark Enable the KDE wallet subsystem  
