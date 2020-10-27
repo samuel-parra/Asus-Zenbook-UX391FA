@@ -35,6 +35,12 @@ kfind
 kubuntu-restricted-extras-67  
 network-manager-fortisslvpn  
 hunspell-es  
+pavucontrol  
+imwheel  
+zenity  
+kcalc
+net-tools  
+autocutsel  
 
 
 ## KWallet
@@ -42,3 +48,12 @@ hunspell-es
 Disable kwallet  
 
 System Settings > KDE WALLET > unmark Enable the KDE wallet subsystem  
+
+
+## Konsole sync
+
+Sync buffers in copy on select in Konsole install autocutsel
+```  
+autocutsel -cutbuffer 0 -f -s PRIMARY  
+autocutsel -f -s CLIPBOARD` 
+```  
