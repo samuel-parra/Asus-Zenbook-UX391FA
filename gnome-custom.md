@@ -17,7 +17,7 @@ Qogir-win-light
 ## Icons
 
 Boston  
-Tela-circle
+Tela-circle  
 
 ## Cursor
 
@@ -36,5 +36,5 @@ edit /etc/systemd/logind.conf and change HandleLidSwitch=hibernate
 ## Fonts
 
 Interface Text:  Fira Sans Regular 11  
-Document Text: Sans Regular 11
-Monospace Text: Fira Mono Regular 11
+Document Text: Sans Regular 11  
+Monospace Text: Fira Mono Regular 11  

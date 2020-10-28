@@ -89,3 +89,20 @@ change governor to powersave
 ```
 sudo cpupower frequency-set -g  powersave  
 ```
+
+## Console Font Size HiDPI
+
+### Ubuntu/KDE Neon
+
+edit /etc/default/console-setup and change  
+```  
+FONTFACE="TER"
+FONTSIZE="16x32"
+```  
+after run  sudo update-initramfs -u and add in GRUB_CMDLINE_LINUX in  /etc/default/grub  
+```  
+fbcon=font:TER16x32  
+```  
+after run sudo update-grub  
+
+
