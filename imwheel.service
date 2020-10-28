@@ -1,0 +1,18 @@
+[Unit]
+Description=IMWheel
+Wants=display-manager.service
+After=display-manager.service
+
+[Service]
+Type=simple
+Environment=XAUTHORITY=%h/.Xauthority
+ExecStartPre=sleep 5
+ExecStart=/usr/bin/imwheel -d -b "4 5"
+ExecStop=/usr/bin/pkill imwheel
+RestartSec=10
+#RemainAfterExit=yes
+Restart=always
+
+[Install]
+#WantedBy=graphical-session.target
+WantedBy=default.target
