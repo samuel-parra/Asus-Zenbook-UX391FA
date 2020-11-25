@@ -15,7 +15,10 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash apparmor=0 security=apparmor resume=UUI
 #GRUB_CMDLINE_LINUX="i915.enable_guc=2 i915.enable_fbc=0 i915.enable_dc=2 i915.enable_dpcd_backlight=1 i915.modeset=1 nospectre_v1 nospectre_v2 mitigations=off"
 GRUB_CMDLINE_LINUX="nospectre_v1 nospectre_v2 mitigations=off"
 
-```
+```  
+acpi_osi=Linux  for detect power connection  
+
+
 
 ## Bashrc
 Windows manager detect correct size in HiDPI display  only for KDE Plasma  
