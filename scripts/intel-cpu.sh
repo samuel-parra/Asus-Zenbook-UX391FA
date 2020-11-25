@@ -20,18 +20,18 @@ GPU_MAX_ACC=1150
 case $1 in
 	"-battery")
 		echo $CPU_MAX_BATT | sudo tee $CPU_MAX_PERF
-        for cpu in /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference; do
-            echo $ENER_PERF_BATT | sudo tee $cpu
-        done
-        echo $GPU_MAX_BATT | sudo tee $GPU_MAX_FREQ		
-		;;
+		for cpu in /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference; do
+			echo $ENER_PERF_BATT | sudo tee $cpu
+		done
+		echo $GPU_MAX_BATT | sudo tee $GPU_MAX_FREQ		
+;;
 
 	"-ac")
 		echo $CPU_MAX_ACC | sudo tee $CPU_MAX_PERF
-        for cpu in /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference; do
-            echo $ENER_PERF_ACC | sudo tee $cpu
-        done
-        echo $GPU_MAX_ACC | sudo tee $GPU_MAX_FREQ        		
+		for cpu in /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference; do
+			echo $ENER_PERF_ACC | sudo tee $cpu
+		done
+		echo $GPU_MAX_ACC | sudo tee $GPU_MAX_FREQ        		
 		;;
 
 	"-show")
