@@ -18,6 +18,7 @@ GRUB_CMDLINE_LINUX="nospectre_v1 nospectre_v2 mitigations=off"
 ```  
 acpi_osi=Linux  for detect power connection  
 intel_idle.max_cstate=4 for glitch
+mem_sleep_default=deep for deep sleep and less power comsuption
 
 
 
