@@ -111,3 +111,9 @@ fbcon=font:TER16x32
 after run sudo update-grub  
 
 
+## Wifi sensivity
+
+create a file /etc/modprobe.d/wifi-sensitivity.conf and add  
+```
+module options mac80211 beacon_loss_count=1 max_probe_tries=1  
+```
