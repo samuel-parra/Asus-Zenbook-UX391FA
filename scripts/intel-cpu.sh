@@ -16,6 +16,7 @@ GPU_MAX_BATT=800
 CPU_MAX_ACC=100
 ENER_PERF_ACC="balance_performance"
 GPU_MAX_ACC=1150
+NO_TURBO=1
 
 case $1 in
 	"-battery")
@@ -24,7 +25,8 @@ case $1 in
 			echo $ENER_PERF_BATT | sudo tee $cpu
 		done
 		echo $GPU_MAX_BATT | sudo tee $GPU_MAX_FREQ		
-;;
+		echo $NO_TURBO | sudo tee $CPU_TURBO
+        ;;
 
 	"-ac")
 		echo $CPU_MAX_ACC | sudo tee $CPU_MAX_PERF
@@ -32,6 +34,7 @@ case $1 in
 			echo $ENER_PERF_ACC | sudo tee $cpu
 		done
 		echo $GPU_MAX_ACC | sudo tee $GPU_MAX_FREQ        		
+		echo $NO_TURBO | sudo tee $CPU_TURBO
 		;;
 
 	"-show")
@@ -45,7 +48,7 @@ case $1 in
 		;;
     *)
         echo "Usage:"
-        echo "1: intel-cpu.sh [ -baterry | -show"
+        echo "1: intel-cpu.sh [ -battery | -show"
         echo "                  -ac ]"
         exit 3
         ;;        	
