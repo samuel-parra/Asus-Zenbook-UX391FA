@@ -28,11 +28,15 @@ sudo apt install ubuntu-restricted-extras
 
 kubuntu-driver-manager  
 kubuntu-restricted-extras  
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-ugly
+gstreamer1.0-plugins-base
+qtgstreamer-plugins-qt5
 build-essential  
 fonts-roboto  
 kate  
 kfind  
-kubuntu-restricted-extras-67  
 network-manager-fortisslvpn  
 hunspell-es  
 pavucontrol  
