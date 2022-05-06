@@ -115,7 +115,7 @@ after run sudo update-grub
 
 create a file /etc/modprobe.d/wifi-sensitivity.conf and add  
 ```
-options mac80211 beacon_loss_count=1 max_probe_tries=1  
+options mac80211 beacon_loss_count=1 max_probe_tries=1  probe_wait_ms=500  
 ```
 
 ## Gestures enable
