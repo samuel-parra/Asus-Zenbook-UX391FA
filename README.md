@@ -120,7 +120,7 @@ options mac80211 beacon_loss_count=1 max_probe_tries=1
 
 ## Gestures enable
 
-for enable gestures in KDE Plasma
-1.- install touchegg
-2 .- enable touchegg daemon
-3.- follow this page https://github.com/NayamAmarshe/ToucheggKDE
+for enable gestures in KDE Plasma  
+1.- install touchegg  
+2 .- enable touchegg daemon  
+3.- follow this page https://github.com/NayamAmarshe/ToucheggKDE  
