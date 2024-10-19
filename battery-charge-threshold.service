@@ -5,7 +5,8 @@ After=multi-user.target
 [Service]
 Type=oneshot
 ExecStartPre=sleep 5
-ExecStart=/bin/bash -c 'echo 60 > /sys/class/power_supply/BAT0/charge_control_end_threshold'
+ExecStart=/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'
+ExecStart=/bin/bash -c 'echo 40 > /sys/class/power_supply/BAT0/charge_start_threshold'
 
 [Install]
 WantedBy=multi-user.target
